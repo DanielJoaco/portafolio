@@ -31,7 +31,7 @@ a {
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 3.6rem;
     background-color: #31363F;
@@ -52,6 +52,12 @@ header{
     height: 20rem;
     width: 20rem;
     margin: 4rem;
+}
+
+h1{
+    font-size: 5.2rem;
+    margin: 1rem;
+    background-color: transparent;
 }
 
 h2{
@@ -78,13 +84,19 @@ h3{
     margin: 1.5rem;
 }
 
-#softSkills{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+#hardSkills, #softSkills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 2rem;
 }
 
-#softSkills li{
+#divHardSkills, #divSoftSkills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#divHardSkills li, #softSkills li{
     display: flex;
     align-items: center;
     border: 0.1rem solid #EEEEEE;
@@ -95,7 +107,7 @@ h3{
     background-color: #31363F;
 }
 
-#softSkills img{
+#divHardSkills img, #softSkills img{
     height: 5rem;
     width: 5rem;
     margin: 0.5rem;

@@ -1,0 +1,200 @@
+{
+  "socialMedia": [
+    {
+      "img": "./assets/logos/linkedin.svg",
+      "text": "Linkedin",
+      "type": "socialMedia",
+      "category": null,
+      "url": "https://www.linkedin.com/in/daniel-joaquin-orjuela-holguin-a55054303/",
+      "imgDarkMode": "./assets/logos/linkedin_dark.svg"
+    },
+    {
+      "img": "./assets/logos/github.svg",
+      "text": "GitHub",
+      "type": "socialMedia",
+      "category": "programming",
+      "url": "https://github.com/DanielJoaco?tab=repositories",
+      "imgDarkMode": "./assets/logos/github_dark.svg"
+    },
+    {
+      "img": "./assets/logos/platzi.svg",
+      "text": "Platzi",
+      "type": "socialMedia",
+      "category": "studies",
+      "url": "https://platzi.com/p/danieljorjuela/",
+      "imgDarkMode": "./assets/logos/platzi_dark.svg"
+    },
+    {
+      "img": "./assets/logos/instagram.svg",
+      "text": "Instagram",
+      "type": "socialMedia",
+      "category": null,
+      "url": "https://instagram.com/DanielJoaco?tab=repositories",
+      "imgDarkMode": "./assets/logos/instagram_dark.svg"
+    }
+  ],
+  "hardSkills": [
+    {
+      "img": "./assets/logos/python.svg",
+      "text": "Python",
+      "type": "hardSkills",
+      "category": "programming",
+      "url": "",
+      "imgDarkMode": "./assets/logos/python.svg"
+    },    
+    {
+      "img": "./assets/logos/canva.svg",
+      "text": "Canva",
+      "type": "hardSkills",
+      "category": "edition",
+      "url": "",
+      "imgDarkMode": "./assets/logos/canva.svg"
+    },     {
+      "img": "./assets/logos/css.svg",
+      "text": "Css",
+      "type": "hardSkills",
+      "category": "programming",
+      "url": "",
+      "imgDarkMode": "./assets/logos/css.svg"
+    },     {
+      "img": "./assets/logos/git.svg",
+      "text": "Git",
+      "type": "hardSkills",
+      "category": "Version control",
+      "url": "",
+      "imgDarkMode": "./assets/logos/git.svg"
+    }, {
+      "img": "./assets/logos/html5.svg",
+      "text": "Html5",
+      "type": "hardSkills",
+      "category": "programming",
+      "url": "",
+      "imgDarkMode": "./assets/logos/html5.svg"
+    }, {
+      "img": "./assets/logos/illustrator.svg",
+      "text": "Illustrator",
+      "type": "hardSkills",
+      "category": "edition",
+      "url": "",
+      "imgDarkMode": "./assets/logos/illustrator.svg"
+    }, {
+      "img": "./assets/logos/javascript.svg",
+      "text": "Javascript",
+      "type": "hardSkills",
+      "category": "programming",
+      "url": "",
+      "imgDarkMode": "./assets/logos/javascript.svg"
+    }, {
+      "img": "./assets/logos/photoshop.svg",
+      "text": "Photoshop",
+      "type": "hardSkills",
+      "category": "edition",
+      "url": "",
+      "imgDarkMode": "./assets/logos/photoshop.svg"
+    }, {
+      "img": "./assets/logos/premiere.svg",
+      "text": "Premiere Pro",
+      "type": "hardSkills",
+      "category": "edition",
+      "url": "",
+      "imgDarkMode": "./assets/logos/premiere.svg"
+    }, {
+      "img": "./assets/logos/vscode.svg",
+      "text": "Visual Studio Code",
+      "type": "hardSkills",
+      "category": "Code editor",
+      "url": "",
+      "imgDarkMode": "./assets/logos/vscode.svg"
+    }
+  ],
+  "softSkills": [
+    {
+      "img": "./assets/softSkills/adaptive.svg",
+      "text": "Adaptabilidad",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/adaptive_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/coorperation.svg",
+      "text": "Cooperativo",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/coorperation_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/decisive.svg",
+      "text": "Resolutivo",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/decisive_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/honest.svg",
+      "text": "Honesto",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/honest_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/justice.svg",
+      "text": "Justo",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/justice_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/leadership.svg",
+      "text": "Líder",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/leadership_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/loyalty.svg",
+      "text": "Leal",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/loyalty_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/reliability.svg",
+      "text": "Confiable",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/reliability_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/respect.svg",
+      "text": "Respetuoso",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/respect_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/speech.svg",
+      "text": "Divulgador",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/speech_dark.svg"
+    },
+    {
+      "img": "./assets/softSkills/teamwork.svg",
+      "text": "Trabajo en equipo",
+      "type": "softSkill",
+      "category": null,
+      "url": "",
+      "imgDarkMode": "./assets/softSkills/teamwork_dark.svg"
+    }
+  ]
+}
