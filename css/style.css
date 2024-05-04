@@ -40,14 +40,11 @@ a {
   header {
     position: fixed; /* El encabezado se mantiene fijo */
     top: 0; /* Posicionarlo en la parte superior */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Para centrarlo completamente */
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
     border-radius: 100rem;
     max-width: 900px;
     padding: 1rem; /* Espaciado interno */
-    z-index: 100; /* Para asegurarse de que esté por encima del contenido */
     margin-top: 1rem;
   }
 
