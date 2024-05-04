@@ -5,11 +5,19 @@ html{
 }
 
 *{
-    background-color:  #222831;
+
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: #EEEEEE;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(50, 22, 100), rgba(19, 22, 50, 0.1));
+    background-color: rgb(19 22 28);
 }
 
 button{
@@ -29,20 +37,33 @@ a {
     background-color: transparent;
   }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.6rem;
-    background-color: #31363F;
-    padding: 1rem;
+  header {
+    position: fixed; /* El encabezado se mantiene fijo */
+    top: 0; /* Posicionarlo en la parte superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Para centrarlo completamente */
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
+    border-radius: 100rem;
+    max-width: 900px;
+    padding: 1rem; /* Espaciado interno */
+    z-index: 100; /* Para asegurarse de que esté por encima del contenido */
+    margin-top: 1rem;
+  }
+
+nav{
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+header a{
+    margin: 1rem;
 }
 
 #sectionAboutUs{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 0.1rem solid #EEEEEE;
     text-align: center;
     padding: 2rem;
 }
@@ -68,13 +89,71 @@ h2{
 
 h3{
     font-size: 2rem;
-    margin: 0px;
+    margin: 0.5rem;
     background-color: transparent;
 }
 
-#socialMedia{
+#certificates{
+    display: flex;
+    flex-direction: column;
+}
+
+#divcertificates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.certificationArticles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 40rem;
+    margin: 5rem;
+    border: 0.1rem solid #EEEEEE;
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.certificationArticles > img{
+    max-width: 100%;
+}
+
+.certificationArticles h2{
+    font-size: 2.4rem;
+}
+
+time{
     display: flex;
     align-items: center;
+    background-color: transparent;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.certificationArticles div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem 0 0;
+    background-color: transparent;
+    margin: 0.5rem;
+        
+}
+
+.certificationArticles div img, time img{
+    max-width: 3rem;
+    max-height: 3rem;
+    background-color: transparent;
+    margin: 0.5rem;
+}
+
+#socialMedia, #certificates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #socialMedia img{
@@ -84,19 +163,19 @@ h3{
     margin: 1.5rem;
 }
 
-#hardSkills, #softSkills{
+.skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
 }
 
-#divHardSkills, #divSoftSkills{
+.skills div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#divHardSkills li, #softSkills li{
+.skills li{
     display: flex;
     align-items: center;
     border: 0.1rem solid #EEEEEE;
@@ -104,12 +183,12 @@ h3{
     max-width: 20rem;
     padding: 0.5rem;
     margin: 1rem;
-    background-color: #31363F;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
-#divHardSkills img, #softSkills img{
-    height: 5rem;
-    width: 5rem;
-    margin: 0.5rem;
+.skills img{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
     background-color: transparent;
 }

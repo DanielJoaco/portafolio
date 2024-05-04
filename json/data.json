@@ -33,14 +33,14 @@
       "imgDarkMode": "./assets/logos/instagram_dark.svg"
     }
   ],
-  "hardSkills": [
+  "hardSkillsDev": [
     {
-      "img": "./assets/logos/python.svg",
-      "text": "Python",
+      "img": "./assets/logos/audition.svg",
+      "text": "Audition",
       "type": "hardSkills",
-      "category": "programming",
+      "category": "edition",
       "url": "",
-      "imgDarkMode": "./assets/logos/python.svg"
+      "imgDarkMode": "./assets/logos/audition.svg"
     },    
     {
       "img": "./assets/logos/canva.svg",
@@ -49,63 +49,209 @@
       "category": "edition",
       "url": "",
       "imgDarkMode": "./assets/logos/canva.svg"
-    },     {
+    },     
+    {
       "img": "./assets/logos/css.svg",
       "text": "Css",
       "type": "hardSkills",
       "category": "programming",
       "url": "",
       "imgDarkMode": "./assets/logos/css.svg"
-    },     {
+    },     
+    {
       "img": "./assets/logos/git.svg",
       "text": "Git",
       "type": "hardSkills",
-      "category": "Version control",
+      "category": "version control",
       "url": "",
       "imgDarkMode": "./assets/logos/git.svg"
-    }, {
+    }, 
+    {
       "img": "./assets/logos/html5.svg",
       "text": "Html5",
       "type": "hardSkills",
       "category": "programming",
       "url": "",
       "imgDarkMode": "./assets/logos/html5.svg"
-    }, {
+    }, 
+    {
       "img": "./assets/logos/illustrator.svg",
       "text": "Illustrator",
       "type": "hardSkills",
       "category": "edition",
       "url": "",
       "imgDarkMode": "./assets/logos/illustrator.svg"
-    }, {
+    }, 
+    {
       "img": "./assets/logos/javascript.svg",
       "text": "Javascript",
       "type": "hardSkills",
       "category": "programming",
       "url": "",
       "imgDarkMode": "./assets/logos/javascript.svg"
-    }, {
+    },
+    {
+      "img": "./assets/logos/office.svg",
+      "text": "Suite office",
+      "type": "hardSkills",
+      "category": "office",
+      "url": "",
+      "imgDarkMode": "./assets/logos/office.svg"
+    }, 
+    {
       "img": "./assets/logos/photoshop.svg",
       "text": "Photoshop",
       "type": "hardSkills",
       "category": "edition",
       "url": "",
       "imgDarkMode": "./assets/logos/photoshop.svg"
-    }, {
+    }, 
+    {
       "img": "./assets/logos/premiere.svg",
       "text": "Premiere Pro",
       "type": "hardSkills",
       "category": "edition",
       "url": "",
       "imgDarkMode": "./assets/logos/premiere.svg"
-    }, {
+    },
+    {
+      "img": "./assets/logos/python.svg",
+      "text": "Python",
+      "type": "hardSkills",
+      "category": "programming",
+      "url": "",
+      "imgDarkMode": "./assets/logos/python.svg"
+    }, 
+    {
       "img": "./assets/logos/vscode.svg",
       "text": "Visual Studio Code",
       "type": "hardSkills",
-      "category": "Code editor",
+      "category": "code editor",
       "url": "",
       "imgDarkMode": "./assets/logos/vscode.svg"
     }
+  ],
+  "hardSkillsChef":[
+    {
+      "img": "./assets/hardSkillsChef/administration.svg",
+      "text": "Gerencia",
+      "type": "hardSkills",
+      "category": "administrative",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/administration_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/pastry.svg",
+      "text": "Pastelería",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/pastry_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/bakery.svg",
+      "text": "Panadería",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/bakery_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/barismo.svg",
+      "text": "Barismo",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/barismo_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/bartending.svg",
+      "text": "Coctelería",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/bartending_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/chef.svg",
+      "text": "Chef operativo",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/chef_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/chemistry.svg",
+      "text": "Fundamentos químicos",
+      "type": "hardSkills",
+      "category": "scientist",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/chemistry_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/grill.svg",
+      "text": "Parrilla",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/grill_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/hotKitchen.svg",
+      "text": "Cocina caliente",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/hotKitchen_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/logical.svg",
+      "text": "Razonamiento lógico",
+      "type": "hardSkills",
+      "category": "scientist",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/logical_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/physical.svg",
+      "text": "Fundamentos físicos",
+      "type": "hardSkills",
+      "category": "scientist",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/physical_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/pizza.svg",
+      "text": "Pizzería",
+      "type": "hardSkills",
+      "category": "operational",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/pizza_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/recruiter.svg",
+      "text": "Recursos humanos",
+      "type": "hardSkills",
+      "category": "administrative",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/recruiter_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/standardization.svg",
+      "text": "Estandarizacíon",
+      "type": "hardSkills",
+      "category": "administrative",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/standardization_dark.svg"
+    },
+    {
+      "img": "./assets/hardSkillsChef/systematization.svg",
+      "text": "Sistematización",
+      "type": "hardSkills",
+      "category": "administrative",
+      "url": "",
+      "imgDarkMode": "./assets/hardSkillsChef/systematization_dark.svg"
+    }     
   ],
   "softSkills": [
     {
@@ -195,6 +341,278 @@
       "category": null,
       "url": "",
       "imgDarkMode": "./assets/softSkills/teamwork_dark.svg"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Curso de álgebra",
+      "date": "2023-04-09",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-algebra.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1449-algebra/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Álgebra lineal con python",
+      "date": "2023-06-08",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-algebra-lineal.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1725-algebra-lineal/diploma/detalle/",
+      "technologiesLearned": [ "Python" ]
+    },
+    {
+      "name": "Prompt Engineering con ChatGPT",
+      "date": "2024-03-03",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-chatgpt.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/7296-chatgpt/diploma/detalle/",
+      "technologiesLearned": ["OpenIa"]
+    },
+    {
+      "name": "Introducción a la Economía Conductual",
+      "date": "2022-07-28",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-economia-conductual.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2675-economia-conductual/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Matemáticas para Data Science: Estadística Descriptiva",
+      "date": "2023-06-10",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-estadistica-descriptiva.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2353-estadistica-descriptiva/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Ética y Manejo de Datos para Data Science e Inteligencia Artificial",
+      "date": "2023-04-03",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-etica-ia.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/3156-etica-ia/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Educación Financiera y Finanzas Personales",
+      "date": "2023-04-09",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-algebra.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1940-finanzas/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Frontend Developer",
+      "date": "2024-05-03",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-frontend-developer.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2467-frontend-developer/diploma/detalle/",
+      "technologiesLearned": ["Html5", "Css", "Javascript"]
+    },
+    {
+      "name": "Curso de Funciones Matemáticas para Data Science e Inteligencia Artificial",
+      "date": "2023-05-16",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-funciones-matematicas.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2701-funciones-matematicas/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Fundamentos de Data e Inteligencia Artificial",
+      "date": "2023-04-10",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-fundamentos-data.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/ruta/8263-fundamentos-data/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Fundamentos de Matemáticas",
+      "date": "2023-04-04",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-fundamentos-matematicas.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1393-fundamentos-matematicas/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Fundamentos de IA para Data y Machine Learning",
+      "date": "2023-03-31",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-ia-data-ml.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/6935-ia-data-ml/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Illustrator para Diseño Gráfico",
+      "date": "2024-05-02",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-illustrator.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/7461-illustrator/diploma/detalle/",
+      "technologiesLearned": ["Illustrator"]
+    },
+    {
+      "name": "Curso de Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda",
+      "date": "2023-04-27",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-jupyter-notebook.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2434-jupyter-notebook/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": " Curso de Visualización de Datos con Matplotlib y Seaborn",
+      "date": "2023-05-15",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-matplotlib-seaborn.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2913-matplotlib-seaborn/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Análisis de Negocios para Ciencia de Datos",
+      "date": "2023-03-31",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-negocios-data-science.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2069-negocios-data-science/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Lenguaje y Notación Matemática",
+      "date": "2023-04-10",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-notacion-matematica.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2884-notacion-matematica/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Manipulación y Transformación de Datos con Pandas y NumPy",
+      "date": "2023-05-05",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-pandas-numpy.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2912-pandas-numpy/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
+      "date": "2023-04-20",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-pensamiento-logico.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/3221-pensamiento-logico/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones",
+      "date": "2023-04-20",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-pensamiento-logico-estructuras.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/3222-pensamiento-logico-estructuras/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Pensamiento Lógico: Lenguajes de Programación",
+      "date": "2023-04-22",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-pensamiento-logico-lenguajes.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/3223-pensamiento-logico-lenguajes/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Programación Básica",
+      "date": "2022-08-12",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-programacion-basica.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/3208-programacion-basica/diploma/detalle/",
+      "technologiesLearned": ["Css", "Html5", "Javascript"]
+    },
+    {
+      "name": "Curso Básico de Photoshop",
+      "date": "2024-05-03",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-photoshop-basico.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1230-photoshop-basico/diploma/detalle/",
+      "technologiesLearned": ["Photoshop"]
+    },
+    {
+      "name": "Curso de Fundamentos de Python",
+      "date": "2023-04-13",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-python.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/4227-python/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso Básico de Python",
+      "date": "2023-04-18",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-python-basico.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/1937-python-basico/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Python: Comprehensions, Funciones y Manejo de Errores",
+      "date": "2023-04-18",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-python-funciones.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/4260-python-funciones/diploma/detalle/",
+      "technologiesLearned": ["Python"]
+    },
+    {
+      "name": "Curso de Introducción a la Terminal y Línea de Comandos",
+      "date": "2023-04-25",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-terminal.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2292-terminal/diploma/detalle/",
+      "technologiesLearned": ["Ubuntu"]
+    },
+    {
+      "name": "Curso de Producción Sonora para Podcasts",
+      "date": "2023-04-18",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-sonora-podcasts.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2437-sonora-podcasts/diploma/detalle/",
+      "technologiesLearned": ["Audition", "Premiere Pro"]
+    },
+    {
+      "name": "Curso de Storytelling",
+      "date": "2024-05-03",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-storytelling.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2240-storytelling/diploma/detalle/",
+      "technologiesLearned": []
+    },
+    {
+      "name": "Curso de Principios de Visualización de Datos para Business Intelligence",
+      "date": "2023-05-02",
+      "certifyingCompany": "Platzi",
+      "companyLogo": "./assets/logos/platzi.svg",
+      "img": "./assets/certifications/diploma-visualizacion-datos.jpg",
+      "url": "https://platzi.com/p/danieljorjuela/curso/2195-visualizacion-datos/diploma/detalle/",
+      "technologiesLearned": ["Python"]
     }
   ]
 }
