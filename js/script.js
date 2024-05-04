@@ -1,6 +1,6 @@
 // Escucha el evento DOMContentLoaded para cargar scripts y datos
 document.addEventListener('DOMContentLoaded', async () => {
-  const dataLoader = new DataLoader('/json/data.json'); // Cargar datos JSON
+  const dataLoader = new DataLoader('../json/data.json'); // Cargar datos JSON
   const data = await dataLoader.loadData(); // Obtener datos
   if (data) {
     const renderer = new Renderer(data); // Crear instancia del renderizador
