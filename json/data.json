@@ -25,12 +25,12 @@
       "imgDarkMode": "./assets/logos/platzi_dark.svg"
     },
     {
-      "img": "./assets/logos/instagram.svg",
+      "img": "./assets/logos/Instagram_light.svg",
       "text": "Instagram",
       "type": "socialMedia",
       "category": null,
       "url": "https://instagram.com/DanielJoaco?tab=repositories",
-      "imgDarkMode": "./assets/logos/instagram_dark.svg"
+      "imgDarkMode": "./assets/logos/Instagram_dark.svg"
     }
   ],
   "hardSkillsDev": [
