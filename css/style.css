@@ -97,7 +97,7 @@ header a{
     border-radius: 20rem;
     height: 20rem;
     width: 20rem;
-    margin: 4rem;
+    margin: 1rem;
 }
 
 h1{
@@ -196,6 +196,7 @@ time{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 0px;
 }
 
 #socialMedia img{
@@ -247,6 +248,16 @@ time{
         font-size: 50%;
     }
 
+    #start{
+        flex-direction: row;
+    }
+
+    #start div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
     #contentSkills > div button{
         width: 20rem;
         padding: 2.5rem;
@@ -263,7 +274,7 @@ time{
 
 @media (max-width:560px) {
     html{
-        font-size: 30%;
+        font-size: 40%;
     }
 
     #contentSkills > div button{
