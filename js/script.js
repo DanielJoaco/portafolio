@@ -95,28 +95,83 @@ class DataLoader {
 class Renderer {
   constructor(data) {
     this.data = data;
+    this.currentPage = 1; // Página actual
+    this.pageSize = 6; // Número de artículos por página
   }
 
   render() {
     if (this.data) {
+      // Mantener las demás secciones como están
       this._addToDom('socialMedia', this.data.socialMedia, this._createSocialMediaElement);
       this._addToDom('divHardSkillsDev', this.data.hardSkillsDev, this._createSkillElement);
       this._addToDom('DivHardSkillsChef', this.data.hardSkillsChef, this._createSkillElement);
       this._addToDom('divSoftSkills', this.data.softSkills, this._createSkillElement);
-      this._addToDom('divcertificates', this.data.certificates, this._createCertificateElement);
+
+      // Agregar funcionalidad de paginación para certificados
+      this._renderPaginatedCertificates('divcertificates', this.data.certificates);
     }
   }
 
   _addToDom(parentId, dataArray, createElement) {
     const parent = document.getElementById(parentId);
     if (parent) {
+      parent.innerHTML = ""; // Limpiar el contenido existente
       dataArray.forEach(item => {
         parent.appendChild(createElement(item));
       });
     }
   }
 
+  _renderPaginatedCertificates(parentId, certificates) {
+    const parent = document.getElementById(parentId);
+    parent.innerHTML = ""; // Limpiar el contenido existente
+
+    // Obtener el conjunto de certificados para la página actual
+    const start = (this.currentPage - 1) * this.pageSize;
+    const end = start + this.pageSize;
+    const paginatedCertificates = certificates.slice(start, end);
+
+    paginatedCertificates.forEach(certificate => {
+      const element = this._createCertificateElement(certificate);
+      parent.appendChild(element);
+    });
+
+    // Agregar controles de paginación
+    this._addPaginationControls(certificates.length);
+  }
+
+  _addPaginationControls(totalCertificates) {
+    const parent = document.getElementById('navegationCertificates');
+    parent.innerHTML = ''; // Limpiar cualquier contenido existente
+    const totalPages = Math.ceil(totalCertificates / this.pageSize);
+  
+    // Crear botones para cada número de página
+    for (let i = 1; i <= totalPages; i++) {
+      const pageButton = document.createElement("button");
+      pageButton.textContent = i; // Número de la página
+      pageButton.className = 'page-button';
+      pageButton.onclick = () => this.changePage(i); // Cambiar a la página correspondiente
+      if (i === this.currentPage) {
+        pageButton.style.fontWeight = "bold"; // Resaltar la página actual
+        pageButton.style.fontSize = '3rem'; // Resaltar la página actual
+      }
+      parent.appendChild(pageButton); // Agregar el botón al contenedor
+    }
+  }
+  
+
+  changePage(newPage) {
+    this.currentPage = newPage; // Cambiar la página actual
+    this.render(); // Renderizar el contenido para la nueva página
+    
+    // Desplazar la vista al inicio del contenedor 'certificates'
+    const certificatesSection = document.getElementById('certificates');
+    certificatesSection.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+  }
+  
+
   _createSocialMediaElement(media) {
+    // Mantener como está
     const listItem = document.createElement('li');
     const link = document.createElement('a');
     link.href = media.url;
@@ -127,12 +182,13 @@ class Renderer {
     img.src = media.imgDarkMode;
     img.alt = media.text;
 
-    link.appendChild(img); // Añadir imagen al enlace
-    listItem.appendChild(link); // Añadir enlace al elemento de lista
+    link.appendChild(img);
+    listItem.appendChild(link);
     return listItem;
   }
 
   _createSkillElement(skill) {
+    // Mantener como está
     const listItem = document.createElement('li');
     const img = document.createElement('img');
     img.src = skill.imgDarkMode;
@@ -147,58 +203,81 @@ class Renderer {
   }
 
   _createCertificateElement(certificate) {
-  const article = document.createElement('article');
-  article.className = 'certificationArticles';
+    // Mantener como está
+    const article = document.createElement('article');
+    article.className = 'certificationArticles';
 
-  const img = document.createElement('img');
-  img.src = certificate.img;
-  img.alt = `Certificado de ${certificate.name}`;
+    const img = document.createElement('img');
+    img.src = certificate.img;
+    img.alt = `Certificado de ${certificate.name}`;
 
-  const h2 = document.createElement('h2');
-  h2.textContent = certificate.name;
+    const h2 = document.createElement('h2');
+    h2.textContent = certificate.name;
 
-  const time = document.createElement('time');
-  time.dateTime = certificate.date;
+    const time = document.createElement('time');
+    time.dateTime = certificate.date;
 
-  const calendarIcon = document.createElement('img');
-  calendarIcon.src = './assets/calendar_dark.svg';
-  calendarIcon.alt = 'Calendario';
+    const calendarIcon = document.createElement('img');
+    calendarIcon.src = './assets/calendar_dark.svg';
+    calendarIcon.alt = 'Calendario';
 
-  // Corrección: Crear nodo de texto para el texto adicional
-  const textNode = document.createTextNode(` ${certificate.formattedDate}`);
+    const textNode = document.createTextNode(` ${certificate.formattedDate}`);
 
-  time.appendChild(calendarIcon); // Agregar icono al elemento 'time'
-  time.appendChild(textNode); // Agregar texto de fecha al elemento 'time'
+    time.appendChild(calendarIcon);
+    time.appendChild(textNode);
 
-  const companyLogo = document.createElement('img');
-  companyLogo.src = certificate.companyLogo;
-  companyLogo.alt = certificate.certifyingCompany;
+    const companyLogo = document.createElement('img');
+    companyLogo.src = certificate.companyLogo;
+    companyLogo.alt = certificate.certifyingCompany;
 
-  const companyName = document.createElement('h3');
-  companyName.textContent = certificate.certifyingCompany;
+    const companyName = document.createElement('h3');
+    companyName.textContent = certificate.certifyingCompany;
 
-  const link = document.createElement('a');
-  link.href = certificate.url;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
+    const link = document.createElement('a');
+    link.href = certificate.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
 
-  const externalLinkIcon = document.createElement('img');
-  externalLinkIcon.src = './assets/externalLink_dark.svg';
-  externalLinkIcon.alt = 'Enlace Externo';
+    const externalLinkIcon = document.createElement('img');
+    externalLinkIcon.src = './assets/externalLink_dark.svg';
+    externalLinkIcon.alt = 'Enlace Externo';
 
-  link.appendChild(externalLinkIcon); // Agregar icono de enlace al elemento 'a'
+    link.appendChild(externalLinkIcon);
 
-  const companyDiv = document.createElement('div');
-  companyDiv.appendChild(companyLogo);
-  companyDiv.appendChild(companyName);
-  companyDiv.appendChild(link); // Agregar enlace al 'div'
+    const companyDiv = document.createElement('div');
+    companyDiv.appendChild(companyLogo);
+    companyDiv.appendChild(companyName);
+    companyDiv.appendChild(link);
 
-  article.appendChild(img); // Agregar imagen al 'article'
-  article.appendChild(h2); // Agregar título al 'article'
-  article.appendChild(time); // Agregar tiempo al 'article'
-  article.appendChild(companyDiv); // Agregar div de la empresa al 'article'
+    article.appendChild(img);
+    article.appendChild(h2);
+    article.appendChild(time);
+    article.appendChild(companyDiv);
 
-  return article; // Devolver el artículo completo
+    return article;
   }
 }
+
+function changedisplay(event) {
+
+  const eventId = event.dataset.buttonId;
+  const contentSkills = document.getElementById('contentSkills');
+
+  const skillsMap = {
+    developer: 'hardSkillsDev',
+    chef: 'hardSkillsChef',
+    soft: 'softSkills'
+  };
+
+  for (const key in skillsMap) {
+    document.getElementById(skillsMap[key]).style.display = 'none';
+  }
+
+  document.getElementById(skillsMap[eventId]).style.display = 'flex';
+  contentSkills.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+window.changedisplay = changedisplay
  

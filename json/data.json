@@ -345,15 +345,6 @@
   ],
   "certificates": [
     {
-      "name": "Curso de álgebra",
-      "date": "2023-04-09",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-algebra.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/1449-algebra/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
       "name": "Álgebra lineal con python",
       "date": "2023-06-08",
       "certifyingCompany": "Platzi",
@@ -361,24 +352,6 @@
       "img": "./assets/certifications/diploma-algebra-lineal.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/1725-algebra-lineal/diploma/detalle/",
       "technologiesLearned": [ "Python" ]
-    },
-    {
-      "name": "Prompt Engineering con ChatGPT",
-      "date": "2024-03-03",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-chatgpt.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/7296-chatgpt/diploma/detalle/",
-      "technologiesLearned": ["OpenIa"]
-    },
-    {
-      "name": "Introducción a la Economía Conductual",
-      "date": "2022-07-28",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-economia-conductual.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/2675-economia-conductual/diploma/detalle/",
-      "technologiesLearned": []
     },
     {
       "name": "Curso de Matemáticas para Data Science: Estadística Descriptiva",
@@ -399,15 +372,6 @@
       "technologiesLearned": ["Python"]
     },
     {
-      "name": "Curso de Educación Financiera y Finanzas Personales",
-      "date": "2023-04-09",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-algebra.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/1940-finanzas/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
       "name": "Curso de Frontend Developer",
       "date": "2024-05-03",
       "certifyingCompany": "Platzi",
@@ -424,24 +388,6 @@
       "img": "./assets/certifications/diploma-funciones-matematicas.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2701-funciones-matematicas/diploma/detalle/",
       "technologiesLearned": ["Python"]
-    },
-    {
-      "name": "Fundamentos de Data e Inteligencia Artificial",
-      "date": "2023-04-10",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-fundamentos-data.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/ruta/8263-fundamentos-data/diploma/detalle/",
-      "technologiesLearned": ["Python"]
-    },
-    {
-      "name": "Curso de Fundamentos de Matemáticas",
-      "date": "2023-04-04",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-fundamentos-matematicas.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/1393-fundamentos-matematicas/diploma/detalle/",
-      "technologiesLearned": []
     },
     {
       "name": "Curso de Fundamentos de IA para Data y Machine Learning",
@@ -489,15 +435,6 @@
       "technologiesLearned": ["Python"]
     },
     {
-      "name": "Curso de Lenguaje y Notación Matemática",
-      "date": "2023-04-10",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-notacion-matematica.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/2884-notacion-matematica/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
       "name": "Curso de Manipulación y Transformación de Datos con Pandas y NumPy",
       "date": "2023-05-05",
       "certifyingCompany": "Platzi",
@@ -505,33 +442,6 @@
       "img": "./assets/certifications/diploma-pandas-numpy.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2912-pandas-numpy/diploma/detalle/",
       "technologiesLearned": ["Python"]
-    },
-    {
-      "name": "Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo",
-      "date": "2023-04-20",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-pensamiento-logico.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/3221-pensamiento-logico/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
-      "name": "Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones",
-      "date": "2023-04-20",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-pensamiento-logico-estructuras.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/3222-pensamiento-logico-estructuras/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
-      "name": "Curso de Pensamiento Lógico: Lenguajes de Programación",
-      "date": "2023-04-22",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-pensamiento-logico-lenguajes.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/3223-pensamiento-logico-lenguajes/diploma/detalle/",
-      "technologiesLearned": []
     },
     {
       "name": "Curso de Programación Básica",
@@ -561,24 +471,6 @@
       "technologiesLearned": ["Python"]
     },
     {
-      "name": "Curso Básico de Python",
-      "date": "2023-04-18",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-python-basico.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/1937-python-basico/diploma/detalle/",
-      "technologiesLearned": ["Python"]
-    },
-    {
-      "name": "Curso de Python: Comprehensions, Funciones y Manejo de Errores",
-      "date": "2023-04-18",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-python-funciones.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/4260-python-funciones/diploma/detalle/",
-      "technologiesLearned": ["Python"]
-    },
-    {
       "name": "Curso de Introducción a la Terminal y Línea de Comandos",
       "date": "2023-04-25",
       "certifyingCompany": "Platzi",
@@ -586,33 +478,6 @@
       "img": "./assets/certifications/diploma-terminal.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2292-terminal/diploma/detalle/",
       "technologiesLearned": ["Ubuntu"]
-    },
-    {
-      "name": "Curso de Producción Sonora para Podcasts",
-      "date": "2023-04-18",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-sonora-podcasts.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/2437-sonora-podcasts/diploma/detalle/",
-      "technologiesLearned": ["Audition", "Premiere Pro"]
-    },
-    {
-      "name": "Curso de Storytelling",
-      "date": "2024-05-03",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-storytelling.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/2240-storytelling/diploma/detalle/",
-      "technologiesLearned": []
-    },
-    {
-      "name": "Curso de Principios de Visualización de Datos para Business Intelligence",
-      "date": "2023-05-02",
-      "certifyingCompany": "Platzi",
-      "companyLogo": "./assets/logos/platzi.svg",
-      "img": "./assets/certifications/diploma-visualizacion-datos.jpg",
-      "url": "https://platzi.com/p/danieljorjuela/curso/2195-visualizacion-datos/diploma/detalle/",
-      "technologiesLearned": ["Python"]
     }
   ]
 }
