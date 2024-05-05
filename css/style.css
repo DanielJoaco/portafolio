@@ -128,6 +128,9 @@ h3{
 #contentSkills > div{
     display: flex;
 }
+#contentSkills h1{
+    margin: 2rem;
+}
 
 #contentSkills > div button{
     width: 30rem;
@@ -274,7 +277,18 @@ time{
 
 @media (max-width:560px) {
     html{
-        font-size: 40%;
+        font-size: 36%;
+    }
+    #contentSkills > div button{
+        width: 15rem;
+    }
+
+    .skills div{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills li{
+        margin: 1.5rem 2rem 1.5rem 2rem;
     }
 
     #contentSkills > div button{
