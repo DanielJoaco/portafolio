@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 
 const PaginationControls = ({ totalCertificates, currentPage, onPageChange }) => {
   const pageSize = 6; // Tamaño de página

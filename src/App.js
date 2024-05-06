@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import DataLoader from './components/DataLoader';
+import React from 'react'; // useState ya no se usa aquí
+import data from './data.json'; // Importar archivo JSON con json-loader
 import Navbar from './components/Navbar';
 import StartSection from './components/StartSection';
 import SideProjects from './components/SideProjects';
@@ -16,7 +16,7 @@ const _formatDate = (fechaISO) => {
   const opciones = {
     day: 'numeric',
     month: 'long',
-    year: 'numeric',
+    year: 'numeric', 
   };
 
   const formateador = new Intl.DateTimeFormat('es-ES', opciones);
@@ -24,26 +24,15 @@ const _formatDate = (fechaISO) => {
 };
 
 const App = () => {
-  const [data, setData] = useState(null);
+  const formattedCertificates = data.certificates.map((certificate) => ({
+    ...certificate,
+    formattedDate: _formatDate(certificate.date),
+  }));
 
-  const handleDataLoaded = (loadedData) => {
-    const { certificates, ...restOfData } = loadedData;
-
-    const formattedCertificates = certificates.map((certificate) => ({
-      ...certificate,
-      formattedDate: _formatDate(certificate.date),
-    }));
-
-    setData({
-      ...restOfData,
-      certificates: formattedCertificates,
-    });
-  };
-
+  // Reutiliza el bloque "data?" al ser prácticamente idéntico 
   return (
     <div id='htmlRender'>
-      <DataLoader jsonPath="/json/data.json" onDataLoaded={handleDataLoaded} />
-      {data ? (
+      {data ? ( 
         <>
           <Navbar />
           <StartSection socialMedia={data.socialMedia} />
@@ -53,7 +42,7 @@ const App = () => {
             hardSkillsChef={data.hardSkillsChef}
             softSkills={data.softSkills}
           />
-          <Certificates certificates={data.certificates} />
+          <Certificates certificates={formattedCertificates} />
           <AboutMe aboutMe={data.aboutMe} />
           <Footer />
         </>
