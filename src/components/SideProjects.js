@@ -6,7 +6,7 @@ const SideProjects = () => {
       <h1>Proyectos</h1>
       <article className="proyect">
         <a href="https://danieljoaco.github.io/andimons/">
-          <img src="./assets/sideProyects/andimons.jpg" alt="Andimons" />
+          <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/andimons.jpg" alt="Andimons" />
         </a>
         <div>
           <h2>Andimons</h2>
@@ -18,17 +18,17 @@ const SideProjects = () => {
           <footer className="logosProyect">
             <ul>
               <li>
-                <img className="logo" src="./assets/logos/css.svg" alt="Css" />
+                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/css.svg" alt="Css" />
               </li>
               <li>
-                <img className="logo" src="./assets/logos/html5.svg" alt="Html5" />
+                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/html5.svg" alt="Html5" />
               </li>
               <li>
-                <img className="logo" src="./assets/logos/javascript.svg" alt="Javascript" />
+                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/javascript.svg" alt="Javascript" />
               </li>
             </ul>
             <a className="repLink" href="https://github.com/DanielJoaco/andimons">
-              <img className="logo" src="./assets/logos/github_dark.svg" alt="Github" /> Code
+              <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/github_dark.svg" alt="Github" /> Code
             </a>
           </footer>
         </div>
