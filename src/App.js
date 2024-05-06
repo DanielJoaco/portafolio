@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import DataLoader from './components/DataLoader';
 import Navbar from './components/Navbar';
 import StartSection from './components/StartSection';
