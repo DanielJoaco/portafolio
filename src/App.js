@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <div id='htmlRender'>
-      <DataLoader jsonPath="/json/data.json" onDataLoaded={handleDataLoaded} />
+      <DataLoader jsonPath="./data.json" onDataLoaded={handleDataLoaded} />
       {data ? (
         <>
           <Navbar />
