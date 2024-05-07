@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Skills = ({ skills, title }) => {
-  console.log(skills)
   return (
     <article id={skills.type} className="skills" style={{ position: 'relative' }}> {/* Asegura que tiene position: relative */}
       <h2>{title}</h2>

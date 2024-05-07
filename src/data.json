@@ -1,7 +1,7 @@
 {
   "socialMedia": [
     {
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public//assets/logos/linkedin.svg",
+      "img": "https:t.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public//assets/logos/linkedin.svg",
       "text": "Linkedin",
       "type": "socialMedia",
       "category": null,
@@ -129,6 +129,14 @@
       "category": "code editor",
       "url": "",
       "imgDarkMode": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/vscode.svg"
+    },
+    {
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/ubuntu.svg",
+      "text": "Ubuntu",
+      "type": "hardSkills",
+      "category": "Linux",
+      "url": "",
+      "imgDarkMode": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/ubuntu.svg"
     }
   ],
   "hardSkillsChef":[
@@ -479,5 +487,126 @@
       "url": "https://platzi.com/p/danieljorjuela/curso/2292-terminal/diploma/detalle/",
       "technologiesLearned": ["Ubuntu"]
     }
-  ]
+  ],
+  "sideProjects": [
+    {
+      "name": "Andimons",        
+      "preview": "https://danieljoaco.github.io/andimons/",     
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/andimons.jpg",         
+      "description": "Videojuego desarrollado como app web desde cero, inspirado en animales de los andes. Con una lógica moderada para calcular los daños de cada personaje basado en sus fortalezas, debilidades y tipos de ataques.", 
+      "technologies": [  
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/css.svg",     
+          "alt": "Css"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/html5.svg",     
+          "alt": "Html5"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/javascript.svg",     
+          "alt": "Javascript"       
+        }
+      ],
+      "repository": [
+        {
+          "url": "https://github.com/DanielJoaco/andimons",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/github_dark.svg",
+          "alt": "Github"
+        }
+      ] 
+    },
+    {
+      "name": "Analisis a la PlayStore",        
+      "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Playstore-8d9ab34c-a4e9-4398-a84b-1d88bb15552e/notebook/An%C3%A1lisis%20de%20datos-79362663b5d7479fa4fbec96d1efab0b",     
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/superstore.jpg",         
+      "description": "", 
+      "technologies": [  
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
+          "alt": "Python"       
+        }
+      ],
+      "repository": [
+        {
+          "url": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Playstore-8d9ab34c-a4e9-4398-a84b-1d88bb15552e/notebook/An%C3%A1lisis%20de%20datos-79362663b5d7479fa4fbec96d1efab0b",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/deepnote_dark.svg",
+          "alt": "Deepnote"
+        }
+      ] 
+    },
+    {
+      "name": "Red Neuronal",        
+      "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a622b95165a6",     
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/redNeuronal.jpg",         
+      "description": "", 
+      "technologies": [  
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
+          "alt": "Python"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/tensorflow.svg",     
+          "alt": "TensorFlow"       
+        }
+      ],
+      "repository": [
+        {
+          "url": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a622b95165a6",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/deepnote_dark.svg",
+          "alt": "Deepnote"
+        }
+      ]     
+    },
+    {
+      "name": "Sistema con Python",        
+      "preview": "https://replit.com/@DanielOrjuela2/Operaciones-de-algebra-lineal?v=1#main.py",     
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/pythonSystem.jpg",         
+      "description": "", 
+      "technologies": [  
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
+          "alt": "Python"       
+        }
+      ],
+      "repository": [
+        {
+          "url": "https://replit.com/@DanielOrjuela2/Operaciones-de-algebra-lineal?v=1#main.py",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/replit_dark.svg",
+          "alt": "Replit"
+        }
+      ]     
+    },
+    {
+      "name": "Podscast",        
+      "preview": "https://shows.acast.com/daimoncast",     
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/daimoncast.jpg",         
+      "description": "", 
+      "technologies": [  
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/audition.svg",     
+          "alt": "Audition"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/canva.svg",     
+          "alt": "Canva"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/photoshop.svg",     
+          "alt": "Photoshop"       
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/premiere.svg",     
+          "alt": "Premiere Pro"       
+        }
+      ],
+      "repository": [
+        {
+          "url": "https://shows.acast.com/daimoncast",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/acast_dark.svg",
+          "alt": "Acast"
+        }   
+      ]
+    }
+  ]  
 }

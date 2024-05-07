@@ -164,8 +164,9 @@ h3{
     padding-bottom: 1rem;
 }
 
-#sideProyects article{
+#sideProjects article{
     display: flex;
+    margin-bottom: 5rem;
 }
 
 #contentSkills{
@@ -247,7 +248,7 @@ time{
     padding-left: 0px;
 }
 
-.proyect {
+.project {
     align-items: center;
     height: 18rem; 
     overflow: visible;
@@ -258,12 +259,12 @@ time{
     margin-top: 3rem;
 }
 
-.proyect p{
+.project p{
     font-size: 1.4rem;
     margin: 0;
 }
   
-.proyect > a img {
+.project > a img {
     width: 35rem; /* Ancho de la imagen */
     height: 19.6rem; /* Permitir que la imagen crezca en altura según su contenido */
     margin-left: 5rem;
@@ -273,7 +274,7 @@ time{
     border-radius: 1rem;
 }
 
-  .proyect a img:hover, .repLink:hover {
+  .project a img:hover, .repLink:hover {
     opacity: 1;
     box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.1);
     transition-duration: .2s;
@@ -290,18 +291,18 @@ time{
     padding: 0.1rem 1rem 0.1rem 0.5rem;
 }
 
-.proyect > div {
+.project > div {
     max-width: 50vw;
     padding: 2rem;
 }
 
-.logosProyect{
+.logosProject{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logosProyect ul{
+.logosProject ul{
     padding: 0px;
     display: flex;
 }
@@ -407,7 +408,7 @@ time{
         flex-direction: row;
     }
 
-    .proyect{
+    .project{
         height: 24rem;
     }
 
@@ -450,7 +451,7 @@ time{
         width: 15rem;
     }
 
-    .proyect > a img {
+    .project > a img {
         width: 30rem;
         height: 17rem;
         margin-left: 3rem;

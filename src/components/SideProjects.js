@@ -1,38 +1,52 @@
 import React from 'react';
 
-const SideProjects = () => {
+const SideProjects = ({ projects }) => {
+  console.log(projects)
+  if (!projects) {
+    return <p>No hay proyectos disponibles.</p>;
+  }
+
+  // Asegúrate de que 'projects' sea un array
+  const projectArray = Array.isArray(projects) ? projects : Object.values(projects);
+
   return (
-    <section id="sideProyects" className="sections">
+    <section id="sideProjects" className="sections">
       <h1>Proyectos</h1>
-      <article className="proyect">
-        <a href="https://danieljoaco.github.io/andimons/">
-          <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/andimons.jpg" alt="Andimons" />
-        </a>
-        <div>
-          <h2>Andimons</h2>
-          <p>
-            Videojuego desarrollado como app web desde cero, inspirado en animales de los andes.
-            Con una lógica moderada para calcular los daños de cada personaje basado en sus fortalezas,
-            debilidades y tipos de ataques.
-          </p>
-          <footer className="logosProyect">
-            <ul>
-              <li>
-                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/css.svg" alt="Css" />
-              </li>
-              <li>
-                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/html5.svg" alt="Html5" />
-              </li>
-              <li>
-                <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/javascript.svg" alt="Javascript" />
-              </li>
-            </ul>
-            <a className="repLink" href="https://github.com/DanielJoaco/andimons">
-              <img className="logo" src="https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/github_dark.svg" alt="Github" /> Code
-            </a>
-          </footer>
-        </div>
-      </article>
+      {/* Itera sobre cada proyecto */}
+      {projectArray.map((project, index) => (
+        <article key={index} className="project">
+          <a href={project.preview}>
+            <img src={project.img} alt={project.name} />
+          </a>
+          <div>
+            <h2>{project.name}</h2> {/* Nombre del proyecto */}
+            <p>{project.description}</p> {/* Descripción del proyecto */}
+            <footer className="logosProject">
+              <ul>
+                {/* Asegúrate de que 'technologies' es un array antes de usar 'map()' */}
+                {Array.isArray(project.technologies) ? (
+                  project.technologies.map((tech, idx) => (
+                    <li key={idx}>
+                      <img className="logo" src={tech.img} alt={tech.alt} />
+                    </li>
+                  ))
+                ) : (
+                  <li>No hay tecnologías disponibles</li> // Mensaje alternativo si no hay tecnologías
+                )}
+              </ul>
+              {Array.isArray(project.repository) ? ( // Verifica 'repository' antes de usar 'map()'
+                project.repository.map((repo, idx) => (
+                  <a key={idx} className="repLink" href={repo.url}>
+                    <img className="logo" src={repo.logo} alt={repo.alt} /> Proyect
+                  </a>
+                ))
+              ) : (
+                <p>No hay repositorios disponibles</p> // Mensaje alternativo si no hay repositorios
+              )}
+            </footer>
+          </div>
+        </article>
+      ))}
     </section>
   );
 };
