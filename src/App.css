@@ -118,8 +118,8 @@ header a{
 
 .additional-class{
     height: 3rem;
-    width: 23.2rem;
-    background-color: rgb(20, 11, 40, 0.99);
+    width: 23.3rem;
+    background-color: rgb(50, 22, 100, 0.99);
     position: absolute;
     border-radius: 99rem;
     z-index: 10;
@@ -322,6 +322,7 @@ time{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 }
 
 .skills ul{
@@ -410,9 +411,9 @@ time{
         height: 24rem;
     }
 
-    #contentSkills > div button{
-        width: 20rem;
+    #contentSkills > div:nth-child(2) button{
         padding: 2.5rem;
+        width: 20rem;
     }
 
     .skills li {
@@ -441,10 +442,12 @@ time{
 
     .skills li{
         margin: 1.5rem 2rem 1.5rem 2rem;
+        max-width: 15rem;
     }
 
-    #contentSkills > div button{
+    #contentSkills > div:nth-child(2) button{
         padding: 2rem;
+        width: 15rem;
     }
 
     .proyect > a img {

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "../utils/cn.ts";
 import React from 'react';
+import useMediaQuery from './useMediaQuery.tsx';
 
 type Tab = {
     title: string;
@@ -98,6 +99,8 @@ type Tab = {
     hovering?: boolean;
   }) => {
     const isActive = (tab) => tab.value === active.value;
+    const is1020pxOrSmaller = useMediaQuery('(max-width: 1020px)'); // Para pantallas más pequeñas que 1020px
+    const is620pxOrSmaller = useMediaQuery('(max-width: 620px)'); // Para pantallas más pequeñas que 620px
   
     return (
       <div className="relative w-full h-full">
@@ -109,12 +112,12 @@ type Tab = {
               scale: 1 - idx * 0.1,
               zIndex: tabs.length - idx, // El orden de apilamiento
               opacity: isActive(tab) ? 1 : 0.3 + idx * 0.3,
-              height: '55rem',
+              height: is620pxOrSmaller ? '52rem' : is1020pxOrSmaller ? '46rem' : '55rem', // Ajusta el height según la media query
               backgroundColor: 'rgba(19, 22, 30, 0.8)', // Fondo negro con transparencia
               borderRadius: '2rem',
               padding: '1rem',
               position: 'relative',
-              top: idx * -585
+              top: is620pxOrSmaller ? idx * -315 : is1020pxOrSmaller ? idx * -400 : idx * -585, // Ajusta el valor de top según la media query
             }}
             animate={{
             y: hovering ? idx * -25 : 0, // Cambia el desplazamiento al hacer hover

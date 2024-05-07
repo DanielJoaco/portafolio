@@ -9,7 +9,7 @@ const Skills = ({ skills, title }) => {
         {skills.map((skill) => (
           <li key={skill.text} style={{ position: 'relative' }}> {/* Agrega position: relative a los elementos */}
             <img src={skill.imgDarkMode} alt={skill.text} />
-            <h3 style={{fontSize: '1.6rem'}}>{skill.text}</h3>
+            <h3 style={{fontSize: '1.2rem'}}>{skill.text}</h3>
           </li>
         ))}
       </ul>
