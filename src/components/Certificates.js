@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import CertificateItem from './CertificateItem'; // Componente para renderizar un certificado
+import { motion } from 'framer-motion'; // Importar framer-motion para animaciones
+import CertificateItem from './CertificateItem'; // Componente para renderizar certificados
 import PaginationControls from './PaginationControls'; // Controles de paginación
 
 const Certificates = ({ certificates }) => {
@@ -18,9 +19,19 @@ const Certificates = ({ certificates }) => {
     <section id="certificates" className="sections">
       <h1>Certificaciones</h1>
       <div id='divcertificates'>
-      {paginatedCertificates.map((certificate) => (
-        <CertificateItem key={certificate.name} certificate={certificate} />
-      ))}
+        {paginatedCertificates.map((certificate) => (
+          <motion.div
+            key={certificate.name}
+            whileHover={{
+              backgroundColor: 'rgba(255, 255, 255, 0.03)',
+              borderRadius: '3rem',
+              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)', // Añade sombra al hacer hover
+              transition: { duration: 0.3 }, // Transición suave
+            }}
+          >
+            <CertificateItem certificate={certificate} /> {/* Componente para certificado */}
+          </motion.div>
+        ))}
       </div>
       <PaginationControls
         totalCertificates={certificates.length}

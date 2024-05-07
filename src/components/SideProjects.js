@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SideProjects = ({ projects }) => {
-  console.log(projects)
   if (!projects) {
     return <p>No hay proyectos disponibles.</p>;
   }

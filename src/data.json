@@ -493,7 +493,7 @@
       "name": "Andimons",        
       "preview": "https://danieljoaco.github.io/andimons/",     
       "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/andimons.jpg",         
-      "description": "Videojuego desarrollado como app web desde cero, inspirado en animales de los andes. Con una lógica moderada para calcular los daños de cada personaje basado en sus fortalezas, debilidades y tipos de ataques.", 
+      "description": "Videojuego desarrollado como aplicación web desde cero, inspirado en animales de los Andes. Incluye lógica moderada para calcular el daño de cada personaje basado en sus fortalezas, debilidades y tipos de ataques.", 
       "technologies": [  
         {
           "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/css.svg",     
@@ -517,10 +517,10 @@
       ] 
     },
     {
-      "name": "Analisis a la PlayStore",        
+      "name": "Análisis a la PlayStore",        
       "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Playstore-8d9ab34c-a4e9-4398-a84b-1d88bb15552e/notebook/An%C3%A1lisis%20de%20datos-79362663b5d7479fa4fbec96d1efab0b",     
       "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/superstore.jpg",         
-      "description": "", 
+      "description": "Análisis a un conjunto de datos de la Play Store de 2018, donde se realizó limpieza y corrección con Pandas. El análisis y visualización de datos se llevó a cabo con Matplotlib y Seaborn, llegando a algunas conclusiones basadas en los resultados del análisis.", 
       "technologies": [  
         {
           "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
@@ -530,30 +530,30 @@
       "repository": [
         {
           "url": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Playstore-8d9ab34c-a4e9-4398-a84b-1d88bb15552e/notebook/An%C3%A1lisis%20de%20datos-79362663b5d7479fa4fbec96d1efab0b",
-          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/deepnote_dark.svg",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/a3c0fd5b8b412501f9a53b7551992ed066254664/public/assets/logos/deepnote_dark.svg",
           "alt": "Deepnote"
         }
       ] 
     },
     {
       "name": "Red Neuronal",        
-      "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a622b95165a6",     
+      "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a  622b95165a6",     
       "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/redNeuronal.jpg",         
-      "description": "", 
+      "description": "Creación y entrenamiento de una red neuronal de 3 capas con Keras, de tipo densa, usando TensorFlow y NumPy para transformar grados Celsius a Fahrenheit.", 
       "technologies": [  
         {
           "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
           "alt": "Python"       
         },
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/tensorflow.svg",     
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/a3c0fd5b8b412501f9a53b7551992ed066254664/public/assets/logos/tensorflow.svg",     
           "alt": "TensorFlow"       
         }
       ],
       "repository": [
         {
           "url": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a622b95165a6",
-          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/deepnote_dark.svg",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/a3c0fd5b8b412501f9a53b7551992ed066254664/public/assets/logos/deepnote_dark.svg",
           "alt": "Deepnote"
         }
       ]     
@@ -562,7 +562,7 @@
       "name": "Sistema con Python",        
       "preview": "https://replit.com/@DanielOrjuela2/Operaciones-de-algebra-lineal?v=1#main.py",     
       "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/pythonSystem.jpg",         
-      "description": "", 
+      "description": "Algoritmo creado con Python usando librerías como Matplotlib, NumPy y SymPy para visualización y estudio de diversas funciones de álgebra lineal, usando módulos para facilitar la lectura y mantenimiento del código.", 
       "technologies": [  
         {
           "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",     
@@ -572,7 +572,7 @@
       "repository": [
         {
           "url": "https://replit.com/@DanielOrjuela2/Operaciones-de-algebra-lineal?v=1#main.py",
-          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/replit_dark.svg",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/a3c0fd5b8b412501f9a53b7551992ed066254664/public/assets/logos/replit_dark.svg",
           "alt": "Replit"
         }
       ]     
@@ -581,7 +581,7 @@
       "name": "Podscast",        
       "preview": "https://shows.acast.com/daimoncast",     
       "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/daimoncast.jpg",         
-      "description": "", 
+      "description": "Podcast sobre desarrollo personal, donde se utilizó toda la suite de Adobe Creative Cloud y Canva para edición multimedia, y herramientas como ChatGPT, DALL·E y MidJourney para creación de recursos.", 
       "technologies": [  
         {
           "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/audition.svg",     
@@ -603,7 +603,7 @@
       "repository": [
         {
           "url": "https://shows.acast.com/daimoncast",
-          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/acast_dark.svg",
+          "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/a3c0fd5b8b412501f9a53b7551992ed066254664/public/assets/logos/acast.svg",
           "alt": "Acast"
         }   
       ]
