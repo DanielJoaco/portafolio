@@ -445,7 +445,7 @@ time{
         max-width: 15rem;
     }
 
-    #contentSkills > div:nth-child(2) button{
+        #contentSkills > div:nth-child(2) button{
         padding: 2rem;
         width: 15rem;
     }
