@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 
-const PaginationControls = ({ totalCertificates, currentPage, onPageChange }) => {
-  const pageSize = 6; // Tamaño de página
-  const totalPages = Math.ceil(totalCertificates / pageSize); // Total de páginas
+const PaginationControls = ({ totalItems, itemsPerPage, currentPage, onPageChange, scrollElement }) => {
+  const totalPages = Math.ceil(totalItems / itemsPerPage); // Total de páginas
 
   // Crear referencia para el desplazamiento suave
   const certificatesRef = useRef(null);
@@ -11,7 +10,7 @@ const PaginationControls = ({ totalCertificates, currentPage, onPageChange }) =>
     onPageChange(pageNumber); // Cambiar la página actual
 
     // Desplazamiento suave hacia el elemento con ID 'certificates'
-    const certificatesElement = certificatesRef.current || document.getElementById('certificates');
+    const certificatesElement = certificatesRef.current || document.getElementById(scrollElement);
     if (certificatesElement) {
       certificatesElement.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
     }

@@ -357,7 +357,7 @@
       "date": "2023-06-08",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-algebra-lineal.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-algebra-lineal.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/1725-algebra-lineal/diploma/detalle/",
       "technologiesLearned": [ "Python" ]
     },
@@ -366,7 +366,7 @@
       "date": "2023-06-10",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-estadistica-descriptiva.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-estadistica-descriptiva.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2353-estadistica-descriptiva/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -375,7 +375,7 @@
       "date": "2023-04-03",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-etica-ia.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-etica-ia.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/3156-etica-ia/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -384,7 +384,7 @@
       "date": "2024-05-03",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-frontend-developer.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-frontend-developer.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2467-frontend-developer/diploma/detalle/",
       "technologiesLearned": ["Html5", "Css", "Javascript"]
     },
@@ -393,7 +393,7 @@
       "date": "2023-05-16",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-funciones-matematicas.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-funciones-matematicas.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2701-funciones-matematicas/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -402,7 +402,7 @@
       "date": "2023-03-31",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-ia-data-ml.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-ia-data-ml.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/6935-ia-data-ml/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -411,7 +411,7 @@
       "date": "2024-05-02",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-illustrator.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-illustrator.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/7461-illustrator/diploma/detalle/",
       "technologiesLearned": ["Illustrator"]
     },
@@ -420,7 +420,7 @@
       "date": "2023-04-27",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-jupyter-notebook.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-jupyter-notebook.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2434-jupyter-notebook/diploma/detalle/",
       "technologiesLearned": []
     },
@@ -429,7 +429,7 @@
       "date": "2023-05-15",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-matplotlib-seaborn.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-matplotlib-seaborn.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2913-matplotlib-seaborn/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -438,7 +438,7 @@
       "date": "2023-03-31",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-negocios-data-science.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-negocios-data-science.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2069-negocios-data-science/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -447,7 +447,7 @@
       "date": "2023-05-05",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-pandas-numpy.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-pandas-numpy.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2912-pandas-numpy/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -456,7 +456,7 @@
       "date": "2022-08-12",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-programacion-basica.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-programacion-basica.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/3208-programacion-basica/diploma/detalle/",
       "technologiesLearned": ["Css", "Html5", "Javascript"]
     },
@@ -465,7 +465,7 @@
       "date": "2024-05-03",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-photoshop-basico.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-photoshop-basico.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/1230-photoshop-basico/diploma/detalle/",
       "technologiesLearned": ["Photoshop"]
     },
@@ -474,7 +474,7 @@
       "date": "2023-04-13",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-python.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-python.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/4227-python/diploma/detalle/",
       "technologiesLearned": ["Python"]
     },
@@ -483,7 +483,7 @@
       "date": "2023-04-25",
       "certifyingCompany": "Platzi",
       "companyLogo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/platzi.svg",
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/certifications/diploma-terminal.jpg",
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/certifications/diploma-terminal.jpg",
       "url": "https://platzi.com/p/danieljorjuela/curso/2292-terminal/diploma/detalle/",
       "technologiesLearned": ["Ubuntu"]
     }
@@ -492,7 +492,7 @@
     {
       "name": "Andimons",        
       "preview": "https://danieljoaco.github.io/andimons/",     
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/andimons.jpg",         
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/sideProyects/andimons.jpg",         
       "description": "Videojuego desarrollado como aplicación web desde cero, inspirado en animales de los Andes. Incluye lógica moderada para calcular el daño de cada personaje basado en sus fortalezas, debilidades y tipos de ataques.", 
       "technologies": [  
         {
@@ -519,7 +519,7 @@
     {
       "name": "Análisis a la PlayStore",        
       "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Playstore-8d9ab34c-a4e9-4398-a84b-1d88bb15552e/notebook/An%C3%A1lisis%20de%20datos-79362663b5d7479fa4fbec96d1efab0b",     
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/superstore.jpg",         
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/sideProyects/superstore.jpg",         
       "description": "Análisis a un conjunto de datos de la Play Store de 2018, donde se realizó limpieza y corrección con Pandas. El análisis y visualización de datos se llevó a cabo con Matplotlib y Seaborn, llegando a algunas conclusiones basadas en los resultados del análisis.", 
       "technologies": [  
         {
@@ -538,7 +538,7 @@
     {
       "name": "Red Neuronal",        
       "preview": "https://deepnote.com/workspace/deepmoncast-0bf0-cb95ff43-a937-4652-b2cc-b1691388abfc/project/Celsius-a-Fahrenheit-92e5dfb0-3436-40d3-8f31-6256a3a9a3d6/notebook/Celsius%20a%20fahrenheit-8f42de3680c84f559b09a  622b95165a6",     
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/redNeuronal.jpg",         
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/sideProyects/redNeuronal.jpg",         
       "description": "Creación y entrenamiento de una red neuronal de 3 capas con Keras, de tipo densa, usando TensorFlow y NumPy para transformar grados Celsius a Fahrenheit.", 
       "technologies": [  
         {
@@ -561,7 +561,7 @@
     {
       "name": "Sistema con Python",        
       "preview": "https://replit.com/@DanielOrjuela2/Operaciones-de-algebra-lineal?v=1#main.py",     
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/pythonSystem.jpg",         
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/sideProyects/pythonSystem.jpg",         
       "description": "Algoritmo creado con Python usando librerías como Matplotlib, NumPy y SymPy para visualización y estudio de diversas funciones de álgebra lineal, usando módulos para facilitar la lectura y mantenimiento del código.", 
       "technologies": [  
         {
@@ -580,7 +580,7 @@
     {
       "name": "Podscast",        
       "preview": "https://shows.acast.com/daimoncast",     
-      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/sideProyects/daimoncast.jpg",         
+      "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/sideProyects/daimoncast.jpg",         
       "description": "Podcast sobre desarrollo personal, donde se utilizó toda la suite de Adobe Creative Cloud y Canva para edición multimedia, y herramientas como ChatGPT, DALL·E y MidJourney para creación de recursos.", 
       "technologies": [  
         {
@@ -656,7 +656,7 @@
       "position": "CFO y CMO",
       "enterprise": {
         "name": "Yane Beauty Store",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/ybs.svg",
         "dateStart": "2023-07-31",
         "dateFinish": "Actualmente",
         "media": "https://www.instagram.com/yane_beautystore/"
@@ -668,7 +668,7 @@
           "alt": "Python"
         },
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         },
         {
@@ -693,7 +693,7 @@
       "position": "Podcaster",
       "enterprise": {
         "name": "Daimoncast",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/daimoncast.webp",
         "dateStart": "2023-02-05",
         "dateFinish": "2023-03-26",
         "media": "https://linktr.ee/daimonpodcast"
@@ -701,7 +701,7 @@
     "description": "Producción y postproducción de podcasts, creación de contenido, edición multimedia usando la suite de Adobe Creative Cloud, y publicación en distintos formatos y plataformas de audio y video.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         },
         {
@@ -730,7 +730,7 @@
       "position": "Jefe de producción",
       "enterprise": {
         "name": "Panaderia saludable Senda",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/senda.jpg",
         "dateStart": "2023-08-08",
         "dateFinish": "2024-04-15",
         "media": "https://www.instagram.com/dmaa.bga/"
@@ -738,7 +738,7 @@
       "description": "Estandarización de procesos, creación de formatos y sistemas de trabajo, administración de recursos, gestión de talento humano y fabricación de productos de panadería, pastelería y arepas saludables.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         }
       ]
@@ -747,7 +747,7 @@
       "position": "Cocinero Chef",
       "enterprise": {
         "name": "Restaurante Pal Caminito",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/palcaminito.jpg",
         "dateStart": "2022-08-10",
         "dateFinish": "2023-08-07",
         "media": "https://www.instagram.com/palcaminito/"
@@ -755,7 +755,7 @@
       "description": "Cocinero multidisciplinar abarcando todas las áreas operativas y productivas de la empresa, como líder de línea, pizzero, parrillero y sartenero. Apoyo a las labores del chef en la gestión y administración de la cocina, así como en la organización de eventos.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         }
       ]
@@ -764,7 +764,7 @@
       "position": "Chef",
       "enterprise": {
         "name": "Restaurante Orale Tex-Mex",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/orale.jpg",
         "dateStart": "2021-10-08",
         "dateFinish": "2022-08-01",
         "media": "https://www.instagram.com/oralerestaurantebca/?hl=es"
@@ -772,7 +772,7 @@
       "description": "Gestion administrativa y operativa de la cocina del restaurante, estandarizando procesos, optimizando sistemas de trabajo, administrando recursos y creando formatos como recetarios e inventarios.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         }
       ]
@@ -781,7 +781,7 @@
       "position": "Souf chef",
       "enterprise": {
         "name": "Restaurante Puerto Macondo",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/puertomacondo.jpg",
         "dateStart": "2018-07-01",
         "dateFinish": "2021-07-28",
         "media": "https://www.instagram.com/puertomacondo/"
@@ -789,7 +789,7 @@
       "description": "Gestión del área productiva y operativa de la cocina, incluyendo requisiciones, creación y administración de formatos, implementación de sistemas POS, y apoyo a las tareas creativas y gerenciales del chef.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         }
       ]
@@ -798,7 +798,7 @@
       "position": "Barista y jefe de cocina",
       "enterprise": {
         "name": "Gastrobar Estrellita",
-        "logo": "",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/logos/estrellita.jpg",
         "dateStart": "2019-08-01",
         "dateFinish": "2021-02-01",
         "media": "https://www.instagram.com/estrellitasolyluna_cajica/"
@@ -806,7 +806,7 @@
     "description": "Preparación de más de 40 productos estandarizados entre repostería, barismo, coctelería y cocina ensamblable. Producción de materias primas, creación de formatos y gestión de inventarios de insumos.",
       "technologies": [
         {
-          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/fa7112c5b7ab2065e9dcface916f37db9094544b/src/assets/logos/drive.svg",
           "alt": "Drive"
         }
       ]

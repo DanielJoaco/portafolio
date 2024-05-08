@@ -34,9 +34,11 @@ const Certificates = ({ certificates }) => {
         ))}
       </div>
       <PaginationControls
-        totalCertificates={certificates.length}
+        totalItems={certificates.length}
+        itemsPerPage={pageSize}
         currentPage={currentPage}
         onPageChange={handleChangePage}
+        scrollElement='certificates'
       />
     </section>
   );

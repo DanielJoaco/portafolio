@@ -6,7 +6,7 @@ const StartSection = ({ socialMedia }) => {
   return (
     <section id="start">
       <div>
-        <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/avatar.jpg" alt="Foto de perfil" />
+        <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/avatar.jpg" alt="Foto de perfil" />
         <a href='mailto:danieljorjuela@gmail.com'>
             <HoverBorderGradient
               containerClassName="my-custom-class" // Puedes ajustar las clases si es necesario

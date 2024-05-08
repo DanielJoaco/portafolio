@@ -17,7 +17,7 @@ const AboutMe = () => {
           He destacado en diversas áreas, desde artísticas (música, danza, diseño) hasta científicas (gastronomía, administración, ingeniería de software). Mi objetivo es aplicar esta experiencia al desarrollo y ampliar mi campo laboral.
         </p>
       </div>
-      <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/public/assets/avatar2.jpg" alt="Foto de perfil" />
+      <img src="https://raw.githubusercontent.com/DanielJoaco/portafolio/main/src/assets/avatar2.jpg" alt="Foto de perfil" />
     </section>
   );
 };
