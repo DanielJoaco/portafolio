@@ -608,5 +608,208 @@
         }   
       ]
     }
+  ],
+  "experience": [
+    {
+      "position": "Frontend developer trainee",
+      "enterprise": {
+        "name": "Independiente",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/favicon.svg",
+        "dateStart": "2022-08-01",
+        "dateFinish": "Actualmente",
+        "media": "#sideProjects"
+      },
+      "description": "Desarrollo proyectos personales utilizando tecnologías como React, Node.js, CSS, HTML y JavaScript. Realizando desde la creación de contenido, el diseño y la generación de recursos, hasta la escritura del código y el despliegue en plataformas como GitHub Pages.",
+      "technologies": [
+        {
+          "img": "https://github.com/DanielJoaco/portafolio/blob/main/public/assets/logos/react.svg",
+          "alt": "React"
+        },
+        {
+          "img": "",
+          "alt": "Node.js"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/javascript.svg",
+          "alt": "Javascript"
+        }
+      ]
+    },
+    {
+      "position": "Data scientist trainee",
+      "enterprise": {
+        "name": "Independiente",
+        "logo": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/favicon.svg",
+        "dateStart": "2023-03-31",
+        "dateFinish": "Actualmente",
+        "media": "#sideProjects"
+      },
+      "description": "Analisis de datos  y creacion de algoritmos para para la implementacion de sistemas con python, usando librerias como numpy, pandas, matplotlib, seaborn y tensorflow",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",
+          "alt": "Python"
+        }
+      ]
+    },
+    {
+      "position": "CFO y CMO",
+      "enterprise": {
+        "name": "Yane Beauty Store",
+        "logo": "",
+        "dateStart": "2023-07-31",
+        "dateFinish": "Actualmente",
+        "media": "https://www.instagram.com/yane_beautystore/"
+      },
+      "description": "Gestión administrativa y financiera creando sistemas con Visual Basic y Google Sheets, gestión de proveedores, análisis del mercado y análisis de datos con Python. Creación y edición de contenido multimedia utilizando la suite de Adobe Creative Cloud, OBS y Canva.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/python.svg",
+          "alt": "Python"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/photoshop.svg",
+          "alt": "Photoshop"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/premiere.svg",
+          "alt": "Premiere Pro"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/illustrator.svg",
+          "alt": "Illustrator"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/canva.svg",
+          "alt": "Canva"
+        }
+      ]
+    },
+    {
+      "position": "Podcaster",
+      "enterprise": {
+        "name": "Daimoncast",
+        "logo": "",
+        "dateStart": "2023-02-05",
+        "dateFinish": "2023-03-26",
+        "media": "https://linktr.ee/daimonpodcast"
+      },
+    "description": "Producción y postproducción de podcasts, creación de contenido, edición multimedia usando la suite de Adobe Creative Cloud, y publicación en distintos formatos y plataformas de audio y video.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/audition.svg",
+          "alt": "Audition"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/photoshop.svg",
+          "alt": "Photoshop"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/premiere.svg",
+          "alt": "Premiere Pro"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/illustrator.svg",
+          "alt": "Illustrator"
+        },
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/833cfe02aa275998603d9f0efe466d1b26cd48fd/public/assets/logos/canva.svg",
+          "alt": "Canva"
+        }
+      ]
+    },
+    {
+      "position": "Jefe de producción",
+      "enterprise": {
+        "name": "Panaderia saludable Senda",
+        "logo": "",
+        "dateStart": "2023-08-08",
+        "dateFinish": "2024-04-15",
+        "media": "https://www.instagram.com/dmaa.bga/"
+      },
+      "description": "Estandarización de procesos, creación de formatos y sistemas de trabajo, administración de recursos, gestión de talento humano y fabricación de productos de panadería, pastelería y arepas saludables.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        }
+      ]
+    },
+    {
+      "position": "Cocinero Chef",
+      "enterprise": {
+        "name": "Restaurante Pal Caminito",
+        "logo": "",
+        "dateStart": "2022-08-10",
+        "dateFinish": "2023-08-07",
+        "media": "https://www.instagram.com/palcaminito/"
+      },
+      "description": "Cocinero multidisciplinar abarcando todas las áreas operativas y productivas de la empresa, como líder de línea, pizzero, parrillero y sartenero. Apoyo a las labores del chef en la gestión y administración de la cocina, así como en la organización de eventos.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        }
+      ]
+    },
+    {
+      "position": "Chef",
+      "enterprise": {
+        "name": "Restaurante Orale Tex-Mex",
+        "logo": "",
+        "dateStart": "2021-10-08",
+        "dateFinish": "2022-08-01",
+        "media": "https://www.instagram.com/oralerestaurantebca/?hl=es"
+      },
+      "description": "Gestion administrativa y operativa de la cocina del restaurante, estandarizando procesos, optimizando sistemas de trabajo, administrando recursos y creando formatos como recetarios e inventarios.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        }
+      ]
+    },
+    {
+      "position": "Souf chef",
+      "enterprise": {
+        "name": "Restaurante Puerto Macondo",
+        "logo": "",
+        "dateStart": "2018-07-01",
+        "dateFinish": "2021-07-28",
+        "media": "https://www.instagram.com/puertomacondo/"
+      },
+      "description": "Gestión del área productiva y operativa de la cocina, incluyendo requisiciones, creación y administración de formatos, implementación de sistemas POS, y apoyo a las tareas creativas y gerenciales del chef.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        }
+      ]
+    },
+    {
+      "position": "Barista y jefe de cocina",
+      "enterprise": {
+        "name": "Gastrobar Estrellita",
+        "logo": "",
+        "dateStart": "2019-08-01",
+        "dateFinish": "2021-02-01",
+        "media": "https://www.instagram.com/estrellitasolyluna_cajica/"
+      },
+    "description": "Preparación de más de 40 productos estandarizados entre repostería, barismo, coctelería y cocina ensamblable. Producción de materias primas, creación de formatos y gestión de inventarios de insumos.",
+      "technologies": [
+        {
+          "img": "https://raw.githubusercontent.com/DanielJoaco/portafolio/1e9a63d7dee466ee8b2ee246d55370ded2cb920b/public/assets/logos/drive.svg",
+          "alt": "Drive"
+        }
+      ]
+    }
   ]  
 }

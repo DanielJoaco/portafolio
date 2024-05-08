@@ -113,16 +113,17 @@ type Tab = {
               zIndex: tabs.length - idx, // El orden de apilamiento
               opacity: isActive(tab) ? 1 : 0.3 + idx * 0.3,
               height: is620pxOrSmaller ? '52rem' : is1020pxOrSmaller ? '46rem' : '55rem', // Ajusta el height según la media query
-              backgroundColor: 'rgba(19, 22, 30, 0.8)', // Fondo negro con transparencia
+              backgroundColor: 'rgba(19, 22, 30, 0.9)', // Fondo negro con transparencia
+              boxShadow: '2px -2px 10px rgba(0, 0, 0, 0.3)',
               borderRadius: '2rem',
               padding: '1rem',
               position: 'relative',
-              top: is620pxOrSmaller ? idx * -315 : is1020pxOrSmaller ? idx * -400 : idx * -585, // Ajusta el valor de top según la media query
+              top: is620pxOrSmaller ? idx * -315 : is1020pxOrSmaller ? idx * -400 : idx * -595, // Ajusta el valor de top según la media query
             }}
             animate={{
             y: hovering ? idx * -25 : 0, // Cambia el desplazamiento al hacer hover
             }}
-            transition={{
+            transition={{ 
               type: 'spring',
               bounce: 0.3,
               duration: 0.6,
@@ -138,6 +139,7 @@ type Tab = {
                   zIndex: 1, // Debe tener un z-index mayor para estar delante del contenido
                   backgroundColor: 'rgba(19, 22, 35, 1)', // Fondo negro con transparencia
                   borderRadius: '2rem',
+                  boxShadow: '2px -2px 10px rgba(0, 0, 0, 0.5)'
                 }}
               />
             )}

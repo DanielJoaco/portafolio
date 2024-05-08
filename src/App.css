@@ -166,6 +166,21 @@ h3{
     padding-bottom: 1rem;
 }
 
+.experienceCards{
+    max-width: 60%;
+    background-color: rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.experienceCards > div:first-child{
+    display: flex;
+    justify-content: center;
+}
+
 #sideProjects article{
     display: flex;
     margin-bottom: 5rem;
