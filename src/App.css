@@ -85,7 +85,7 @@ header {
     top: 0; /* Posicionarlo en la parte superior */
     z-index: 50;
     font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
+    background-color: rgba(20, 11, 39, 0.9); /* Fondo con transparencia */
     border-radius: 100rem;
     max-width: 900px;
     padding: 1rem; /* Espaciado interno */
@@ -352,12 +352,12 @@ time{
 .skills li{
     display: flex;
     align-items: center;
-/*     border: 0.1rem solid #EEEEEE; */
+    border: 0.05rem solid #EEEEEE;
     border-radius: 3rem;
     max-width: 20rem;
     padding: 0.5rem;
     margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .skills img{
@@ -481,6 +481,13 @@ time{
 @media (max-width:500px) {
     html{
         font-size: 36%;
+    }
+    #workExperience article div:first-child img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .project {
+        height: 30rem;
     }
 }
 

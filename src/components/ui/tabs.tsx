@@ -57,6 +57,8 @@ type Tab = {
               className={cn("relative px-4 py-2 rounded-full", tabClassName)}
               style={{
                 transformStyle: "preserve-3d",
+                backgroundColor: '#190b32',
+                opacity: '0.9'
               }}
             >
               {active.value === tab.value && (
@@ -101,6 +103,7 @@ type Tab = {
     const isActive = (tab) => tab.value === active.value;
     const is1020pxOrSmaller = useMediaQuery('(max-width: 1020px)'); // Para pantallas más pequeñas que 1020px
     const is620pxOrSmaller = useMediaQuery('(max-width: 620px)'); // Para pantallas más pequeñas que 620px
+    const is500pxOrSmaller = useMediaQuery('(max-width: 500px)'); // Para pantallas más pequeñas que 620px
   
     return (
       <div className="relative w-full h-full">
@@ -113,12 +116,12 @@ type Tab = {
               zIndex: tabs.length - idx, // El orden de apilamiento
               opacity: isActive(tab) ? 1 : 0.3 + idx * 0.3,
               height: is620pxOrSmaller ? '52rem' : is1020pxOrSmaller ? '46rem' : '55rem', // Ajusta el height según la media query
-              backgroundColor: 'rgba(19, 22, 30, 0.9)', // Fondo negro con transparencia
+              backgroundColor: 'rgba(50, 22, 100)', // Fondo negro con transparencia
               boxShadow: '2px -2px 10px rgba(0, 0, 0, 0.3)',
               borderRadius: '2rem',
               padding: '1rem',
               position: 'relative',
-              top: is620pxOrSmaller ? idx * -315 : is1020pxOrSmaller ? idx * -400 : idx * -595, // Ajusta el valor de top según la media query
+              top: is500pxOrSmaller ? idx * -315 :is620pxOrSmaller ? idx * -375 : is1020pxOrSmaller ? idx * -400 : idx * -595, // Ajusta el valor de top según la media query
             }}
             animate={{
             y: hovering ? idx * -25 : 0, // Cambia el desplazamiento al hacer hover
@@ -137,7 +140,7 @@ type Tab = {
                   position: 'absolute', // Asegura que está encima del contenido
                   inset: 0, // Cubre todo el contenido
                   zIndex: 1, // Debe tener un z-index mayor para estar delante del contenido
-                  backgroundColor: 'rgba(19, 22, 35, 1)', // Fondo negro con transparencia
+                  backgroundColor: 'rgba(50, 22, 100)', // Fondo negro con transparencia
                   borderRadius: '2rem',
                   boxShadow: '2px -2px 10px rgba(0, 0, 0, 0.5)'
                 }}

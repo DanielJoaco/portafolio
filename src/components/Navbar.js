@@ -53,7 +53,7 @@ const Navbar = () => {
                 Index:'1', 
                 display:'flex', 
                 flexDirection:'column',
-                backgroundColor: 'rgba(0, 0, 0, 0.55)',
+                backgroundColor: 'rgba(20, 11, 39, 0.95)',
                 borderRadius:'2rem',   
                 padding:'1rem'             
                 }}>

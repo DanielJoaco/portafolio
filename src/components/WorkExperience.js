@@ -26,7 +26,8 @@ const WorkExperience = ({ experience }) => {
           <div style={{display: 'grid',
     gridTemplateColumns: '70% 30%',
     alignItems: 'center',
-    justifyItems: 'start'}}>
+    justifyItems: 'start',
+    paddingRight:'1rem'}}>
             <div>
             <h1 style={{ color: 'rgb(29, 213, 155, 0.9)' }}>{exp.position}</h1>
             <h2>{exp.enterprise.name}</h2>
@@ -48,8 +49,6 @@ const WorkExperience = ({ experience }) => {
                 height: '15rem',
                 borderRadius: '999rem',
                 opacity: '0.7',
-                boxShadow: '0 0 10px rgba(255, 255, 255, 0.2)',
-                
               }}
               src={exp.enterprise.logo}
               alt={exp.enterprise.name}
